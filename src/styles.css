@@ -1,0 +1,195 @@
+body {
+  margin: 3;
+  padding: 3;
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.button_chatbot {
+  overflow: hidden;
+  width: 150px;
+  margin-right: -50px;
+  background-attachment: fixed;
+  float: right;
+}
+
+p {
+  font-family: "Helvetica";
+  font-size: 26px;
+  letter-spacing: 1.5px;
+  padding-left: 20%;
+}
+
+h1 {
+  font-size: 53px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main {
+  font-family: nunito;
+  font-size: 75px;
+  font-style: italic;
+  padding-left: 40px;
+}
+
+.para1 {
+  font-family: "Helvetica";
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  padding-left: 40px;
+}
+
+button {
+  margin-left: 20%;
+  display: block;
+  width: 240px;
+  height: 60px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+button:hover {
+  color: #fff;
+  background: #ce234b;
+  transition: all 0.35s;
+  box-shadow: 10px 10px 5px grey;
+}
+
+button span {
+  position: relative;
+  z-index: 2;
+}
+
+.button:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ce234b;
+  transition: all 0.35s;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.button:hover:after {
+  width: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  /*padding-right: 180px;
+  position: fixed;*/
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.element {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: linear-gradient(to right, red, yellow);
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(0.25);
+    background-color: rgb(228, 89, 55);
+  }
+  50% {
+    background-color: rgb(230, 179, 41);
+  }
+  100% {
+    transform: scale(0.6);
+    background-color: rgb(216, 243, 64);
+    border-radius: 100%;
+  }
+}
+
+.normal {
+  height: 250px;
+  width: 250px;
+  transform: scale(0.25);
+  background-color: rgb(228, 89, 55);
+  border: 10px solid #333;
+}
+
+.corner {
+  position: absolute;
+  left: 75%;
+  top: 70%;
+}

@@ -1,0 +1,199 @@
+{
+  "meals": [
+    {
+      "name": "Grilled Hallibut Fish with Grilled Broccoli",
+      "bestTime": "lunch",
+      "veg": false,
+      "vegan": false,
+      "health": 400,
+      "type": "main",
+      "food": "hallibut"
+    },
+    {
+      "name": "Grilled Chicken Breast with Baked Potato",
+      "bestTime": "dinner",
+      "veg": false,
+      "vegan": false,
+      "health": 450,
+      "type": "main",
+      "food": "chicken"
+    },
+    {
+      "name": "Chicken Soup with Brown Bread",
+      "bestTime": "breakfast",
+      "veg": false,
+      "vegan": false,
+      "health": 500,
+      "type": "main",
+      "food": "soup"
+    },
+    {
+      "name": "Oats with Milk",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": false,
+      "health": 500,
+      "type": "main",
+      "food": "oats"
+    },
+    {
+      "name": "Boiled Eggs with Brown Bread",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": false,
+      "health": 400,
+      "type": "main",
+      "food": "eggs"
+    },
+    {
+      "name": "Salad with your Choice of Vegetables",
+      "bestTime": "lunch",
+      "veg": true,
+      "vegan": true,
+      "health": 600,
+      "type": "main",
+      "food": "salad"
+    },
+    {
+      "name": "Oats with Almond Milk",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": true,
+      "health": 500,
+      "type": "main",
+      "food": "oats"
+    },
+    {
+      "name": "Vegetable Soup with Brown Bread",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": true,
+      "health": 500,
+      "type": "main",
+      "food": "soup"
+    },
+    {
+      "name": "Fruits of your Choice",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": true,
+      "health": 500,
+      "type": "main",
+      "food": "fruitschoice"
+    },
+    {
+      "name": "Grilled Salmon with Grilled Carrots",
+      "bestTime": "breakfast",
+      "veg": false,
+      "vegan": false,
+      "health": 100,
+      "type": "main",
+      "food": "salmon"
+    },
+    {
+      "name": "Chicken Pasta",
+      "bestTime": "breakfast",
+      "veg": false,
+      "vegan": false,
+      "health": 100,
+      "type": "main",
+      "food": "pasta"
+    },
+    {
+      "name": "Beef Steak with Grilled Broccoli",
+      "bestTime": "breakfast",
+      "veg": false,
+      "vegan": false,
+      "health": 100,
+      "type": "main",
+      "food": "pasta"
+    },
+    {
+      "name": "Vegetable Pasta",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": false,
+      "health": 100,
+      "type": "main",
+      "food": "pasta"
+    },
+    {
+      "name": "Homemade Protein Smoothie",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": false,
+      "health": 200,
+      "type": "main",
+      "food": "smoothie"
+    },
+    {
+      "name": "Full Fat Yogurt",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": false,
+      "health": 100,
+      "type": "main",
+      "food": "yogurt"
+    },
+    {
+      "name": "Milk and Dairy Products",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": false,
+      "health": 200,
+      "type": "main",
+      "food": "milk"
+    },
+    {
+      "name": "Eggless Vegetable Pasta",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": true,
+      "health": 100,
+      "type": "main",
+      "food": "pasta"
+    },
+    {
+      "name": "Vegan Coconut Full Fat Yogurt",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": true,
+      "health": 100,
+      "type": "main",
+      "food": "yogurt"
+    },
+    {
+      "name": "Salad with Quinoa and Nuts",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": true,
+      "health": 200,
+      "type": "main",
+      "food": "salad"
+    },
+    {
+      "name": "Dried Fruits of Your Choice",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": true,
+      "health": 200,
+      "type": "main",
+      "food": "driedfruits"
+    },
+    {
+      "name": "Vegetable Curry with Rice",
+      "bestTime": "breakfast",
+      "veg": true,
+      "vegan": true,
+      "health": 100,
+      "type": "main",
+      "food": "curry"
+    }
+  ],
+
+  "plan": [
+    {
+      "mealPlan": []
+    }
+  ]
+}

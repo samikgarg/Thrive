@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <meta charset="UTF-8" />
+
+    <div class="topnav">
+      <a class="active" href="./index.html" style="margin-left: 20%;">Meals</a>
+      <a  href="./chatbot.html" style="margin-left: 20%;">Chatbot</a>
+      <a href="./workout.html" style="margin-left: 20%;">Workout</a>
+    </div>
+  </head>
+
+
+  </div>
+
+  <body>
+    <div id="app" style="padding: 25px;">
+
+     
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6" style="margin: 20px;">
+            <label for="inputMass">What is your Mass?</label>
+            <input type="number" class="form-control" id="inputMass" />
+          </div>
+          <div class="form-group col-md-4" style="margin: 20px;">
+            <label for="inputMassUnit">What is the Unit for your Mass?</label>
+            <select id="inputMassUnit" class="form-control">
+              <option value="0" selected>Kilograms</option>
+              <option value="1">Pounds</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6" style="margin: 20px;">
+            <label for="inputHeight">What is your Height?</label>
+            <input type="number" class="form-control" id="inputHeight" />
+          </div>
+          <div class="form-group col-md-4" style="margin: 20px;">
+            <label for="inputHeightUnit">What is the Unit for your Height?</label>
+            <select id="inputHeightUnit" class="form-control">
+              <option value="0" selected>Metres</option>
+              <option value="1">Centimetres</option>
+              <option value="2">Inches</option>
+              <option value="3">Feet</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4" style="margin: 20px;">
+            <input type="checkbox" id="veganChckbox">
+            <label for="veganChckbox">Vegan</label>
+            <input type="checkbox" id="vegetarianChckbox" style="margin-left:30px;">
+              <label for="veganChckbox">Vegetarian</label>
+            </input>
+          </div>
+          <div class="form-group col-md-4" style="margin: 20px;">
+          <button type="button" id="btnGenerateMeals">Generate Meals</button>
+          </div>
+        </div>
+      </form>
+
+      <div id="text" style="margin: 20px;"></div>
+
+      <div id="mealsListDiv" style="margin: 20px;">
+        <ul id = "mealsList">
+
+        </ul>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
