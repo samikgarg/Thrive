@@ -1,7 +1,7 @@
 <h1 align="center">🌱 Thrive - Your Personalized Health Companion 🏋️‍♂️</h1>
 
 <h2>📌 Description</h2>
-<p>Thrive is a web-based health and fitness application designed to help users manage their weight effectively by providing personalized diet and exercise recommendations. Built during the **UWCHacks Hackathon**, Thrive integrates **BMI analysis**, **food recommendations**, **exercise plans**, and an **AI-powered chatbot** to create a seamless experience for users looking to improve their health. By eliminating the need for extensive research and planning, Thrive allows users to take actionable steps towards a healthier lifestyle at the click of a button.</p>
+<p>Thrive is a web-based health and fitness application designed to help users manage their weight effectively by providing personalized diet and exercise recommendations. Built during the <b>UWCHacks Hackathon</b>, Thrive integrates <b>BMI analysis</b>, <b>food recommendations</b>, <b>exercise plans</b>, and an <b>AI-powered chatbot</b> to create a seamless experience for users looking to improve their health. By eliminating the need for extensive research and planning, Thrive allows users to take actionable steps towards a healthier lifestyle at the click of a button.</p>
 
 ---
 
