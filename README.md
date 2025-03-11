@@ -7,11 +7,15 @@
 
 <h2>🚀 Features</h2>
 <ul>
-    <li><strong>BMI Calculator:</strong> Uses the user’s age, height, and weight to determine their **Body Mass Index (BMI)** and categorize them as **underweight, healthy weight, overweight, or obese**.</li>
-    <li><strong>Personalized Nutrition Guide:</strong> A **JSON-based food database** assigns a **Health Score** to different foods, allowing the app to suggest meals tailored to the user's BMI and health goals.</li>
-    <li><strong>Dynamic Exercise Plans:</strong> Based on BMI, the app generates **customized workout routines** with specific exercise recommendations and intensity levels.</li>
-    <li><strong>AI Chatbot - Shade:</strong> An **AI-powered chatbot** that provides real-time guidance on meal plans, workouts, and health-related inquiries.</li>
-    <li><strong>Instant Feedback:</strong> Real-time recommendations update as the user logs meals and workouts, ensuring dynamic adjustments to their fitness plan.</li>
+    <li><b>BMI Calculator:</b> Uses the user’s age, height, and weight to determine their <b>Body Mass Index (BMI)</b> and categorize them as <b>underweight, healthy weight, overweight, or obese</b>.</li>
+    <li><b>Personalized Nutrition Guide:</b> A <b>JSON-based food database</b> assigns a <b>Health Score</b> to different foods, allowing the app to suggest meals tailored to the user's BMI and health goals.</li>
+    <li><b>Dynamic Exercise Plans:</b> Based on BMI, the app generates <b>customized workout routines</b> with specific exercise recommendations and intensity levels.</li>
+    <li><b>AI Chatbot - Shade:</b> An <b>AI-powered chatbot</b> that provides real-time guidance on meal plans, workouts, and health-related inquiries.</li>
+    <li><b>Instant Feedback:</b> Real-time recommendations update as the user logs meals and workouts, ensuring dynamic adjustments to their fitness plan.</li>
 </ul>
+
+---
+
+<h2>🏆 Achievements</h2> <ul> <li>🥇 <b>First Place</b> at UWCHacks Hackathon</li> <li>🚀 Developed in <b>48 hours</b> as part of a team of three</li> <li>💡 Solves <b>real-world weight management</b> issues through AI-driven insights</li> </ul>
 
 ---
